@@ -27,4 +27,18 @@ This project is a static HTML-based timeline that showcases major milestones in 
 - Styled timeline articles with consistent spacing, borders, and shadows for visual clarity.  
 - Implemented responsive breakpoints for mobile, tablet, and desktop views.  
 - Added accessible styling with focus states and readable color contrasts.  
-- Enhanced user experience with interactive timeline markers and modal animations.  
+- Enhanced user experience with interactive timeline markers and modal animations. 
+
+### Task 3:   
+
+- Introduced interactivity to the timeline using **vanilla JavaScript**.  
+- Created a `data/events.json` file containing **at least 8 sample events**, each with `year`, `title`, `description`, `imageURL`, and `category`.  
+- Developed `script.js` to:  
+  - Fetch and parse the `events.json` file.  
+  - Dynamically render event markers into the `#timeline` section.  
+  - Attach click handlers to each marker to **open the modal** with detailed event information.  
+  - Implement **close functionality** for the modal, including clicking outside the modal and the close button.  
+- Updated `index.html` to load `script.js` at the end of the `<body>` for proper DOM access.  
+- Ensured accessibility by using **ARIA attributes** and maintaining keyboard-friendly modal interactions.  
+- Persisted **dark/light theme toggle** across sessions using `localStorage`.
+

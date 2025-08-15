@@ -1,0 +1,74 @@
+[
+  {
+    "year": "1822",
+    "id": "mechanical-era-babbage-difference-engine",
+    "title": "Mechanical Era: Babbage's Difference Engine",
+    "description": "Charles Babbage designed one of the first mechanical calculators to solve polynomial equations using a method called \"differences.\" This laid the groundwork for the idea of computing machines. At the time, his working prototype was crafted using high-precision metal parts, operating on 6-digit numbers by second-order differences, with plans for a far larger machine that ultimately remained incomplete.",
+    "imageURL": "assets/babbage.webp",
+    "category": "Mechanical Era",
+    "link": "https://en.wikipedia.org/wiki/Difference_engine"
+  },
+  {
+    "year": "1946",
+    "id": "electronic-era-eniac",
+    "title": "Electronic Era: ENIAC",
+    "description": "ENIAC was the first general-purpose, programmable electronic computer. It used around 17,000 vacuum tubes and could perform 5,000 calculations per second — a breakthrough at the time. Invented by Mauchly and Eckert at the University of Pennsylvania, ENIAC was originally built to calculate ballistic trajectories for the U.S. Army, and could be rewired and reprogrammed to handle different tasks.",
+    "imageURL": "assets/eniac.jpg",
+    "category": "Electronic Era",
+    "link": "https://en.wikipedia.org/wiki/ENIAC"
+  },
+  {
+    "year": "1951",
+    "id": "commercial-era-univac-i",
+    "title": "Commercial Era: UNIVAC I",
+    "description": "UNIVAC I was the first computer built for business use in the U.S. Famously, it predicted the 1952 U.S. election results on live TV — demonstrating the power of computing to the public. Operating with thousands of vacuum tubes, it processed census data at high speeds and became a defining symbol of computing's commercial potential.",
+    "imageURL": "assets/univac-1.JPG",
+    "category": "Commercial Era",
+    "link": "https://en.wikipedia.org/wiki/UNIVAC_I"
+  },
+  {
+    "year": "1971",
+    "id": "microprocessor-era-intel-4004",
+    "title": "Microprocessor Revolution: Intel 4004",
+    "description": "The Intel 4004 was the world’s first microprocessor on a single chip. This innovation made computers smaller, more affordable, and opened the door to personal computing. It integrated CPU functions into a silicon-gate chip with about 2,300 transistors, executing around 92,000 instructions per second and sparking the microprocessor revolution.",
+    "imageURL": "assets/intel-C4004.jpg",
+    "category": "Microprocessor Era",
+    "link": "https://en.wikipedia.org/wiki/Intel_4004"
+  },
+  {
+    "year": "1981",
+    "id": "pc-era-ibm-personal-computer",
+    "title": "PC Era: IBM Personal Computer",
+    "description": "IBM’s personal computer became the gold standard for desktops. It made computing more accessible and brought PCs into everyday homes and workplaces. Introduced in August 1981, the IBM PC featured open architecture, the Intel 8088 CPU, and spawned the PC-compatible ecosystem that still dominates the industry today.",
+    "imageURL": "assets/ibm-personal-computer.png",
+    "category": "PC Era",
+    "link": "https://en.wikipedia.org/wiki/IBM_Personal_Computer"
+  },
+  {
+    "year": "2007",
+    "id": "mobile-ai-era-iphone-launch",
+    "title": "Mobile & AI Era: iPhone Launch",
+    "description": "The launch of the iPhone sparked the mobile computing revolution. Since then, technologies like cloud computing, artificial intelligence, and even quantum computing have pushed the boundaries further. The iPhone, first sold in 2007, combined a sleek design, touchscreen interface, and app ecosystem—reshaping how we interact with technology.",
+    "imageURL": "assets/mobile-ai-era.png",
+    "category": "Mobile & AI Era",
+    "link": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)"
+  },
+  {
+    "year": "2016",
+    "id": "ai-era-alpha-go",
+    "title": "AI Breakthrough: AlphaGo",
+    "description": "Google DeepMind’s AlphaGo defeated the world champion Go player, demonstrating the capabilities of deep learning and AI.",
+    "imageURL": "assets/AlphaGO.jpg",
+    "category": "AI Era",
+    "link": "https://en.wikipedia.org/wiki/AlphaGo"
+  },
+  {
+    "year": "2023",
+    "id": "ai-era-chatgpt",
+    "title": "Generative AI Era: ChatGPT",
+    "description": "OpenAI’s ChatGPT popularized large language models, enabling conversational AI for millions of users worldwide.",
+    "imageURL": "assets/chatgpt.jpeg",
+    "category": "AI Era",
+    "link": "https://en.wikipedia.org/wiki/ChatGPT"
+  }
+]

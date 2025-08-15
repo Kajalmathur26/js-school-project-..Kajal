@@ -5,7 +5,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./styles/style.css" />
-
   <title>Timeline of Computing</title>
 </head>
 
@@ -17,167 +16,34 @@
         <figcaption><b>Computing Timeline</b></figcaption>
       </figure>
     </center>
-
     <h1>Timeline of Computing</h1>
 
-    <div class="timeline-nav">
-      <div class="timeline-item">
-        <div class="timeline-label">1822s</div>
-        <a href="#mechanical-era" class="timeline-dot" id="link-mechanical"></a>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-label">1946s</div>
-        <a href="#electronic-era" class="timeline-dot" id="link-electronic"></a>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-label">1951s</div>
-        <a href="#commercial-era" class="timeline-dot" id="link-commercial"></a>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-label">1971s</div>
-        <a href="#microprocessor-era" class="timeline-dot" id="link-micro"></a>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-label">1981s</div>
-        <a href="#pc-era" class="timeline-dot" id="link-pc"></a>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-label">2007s</div>
-        <a href="#mobile-ai-era" class="timeline-dot" id="link-ai"></a>
-      </div>
+
+    <button id="theme-toggle" aria-label="Toggle dark/light theme">Switch Theme</button>
+
+    <div class="timeline-nav" id="timeline-nav">
+
     </div>
   </header>
 
   <main>
     <section id="timeline" class="timeline">
-      <article id="mechanical-era" class="timeline-event">
-        <div class="event-marker" aria-hidden="true"></div>
-        <h2>
-          <a href="https://en.wikipedia.org/wiki/Difference_engine" target="_blank" rel="noopener noreferrer">
-            1822 – Mechanical Era: Babbage’s Difference Engine
-          </a>
-        </h2>
-        <p>
-          Charles Babbage designed one of the first mechanical calculators to solve polynomial equations using a method
-          called “differences.” This laid the groundwork for the idea of computing machines. At the time, his working
-          prototype was crafted using high-precision metal parts, operating on 6-digit numbers by second-order
-          differences, with plans for a far larger machine that ultimately remained incomplete.
-        </p>
-        <figure>
-          <img src="assets/babbage.webp" alt="Babbage's Difference Engine" width="300" />
-          <figcaption>Charles Babbage's first mechanical computer.</figcaption>
-        </figure>
-      </article>
 
-      <article id="electronic-era" class="timeline-event">
-        <div class="event-marker" aria-hidden="true"></div>
-        <h2>
-          <a href="https://en.wikipedia.org/wiki/ENIAC" target="_blank" rel="noopener noreferrer">
-            1946 – Electronic Era: ENIAC
-          </a>
-        </h2>
-        <p>
-          ENIAC was the first general-purpose, programmable electronic computer. It used around 17,000 vacuum tubes and
-          could perform 5,000 calculations per second—a breakthrough at the time. Invented by Mauchly and Ecker﻿t at the
-          University of Pennsylvania, ENIAC was originally built to calculate ballistic trajectories for the U.S. Army,
-          and could be rewired and reprogrammed to handle different tasks.
-        </p>
-        <figure>
-          <img src="assets/eniac.jpg" alt="ENIAC Computer" width="300" />
-          <figcaption>ENIAC</figcaption>
-        </figure>
-      </article>
-
-      <article id="commercial-era" class="timeline-event">
-        <div class="event-marker" aria-hidden="true"></div>
-        <h2>
-          <a href="https://en.wikipedia.org/wiki/UNIVAC_I" target="_blank" rel="noopener noreferrer">
-            1951 – Commercial Era: UNIVAC I
-          </a>
-        </h2>
-        <p>
-          UNIVAC I was the first computer built for business use in the U.S. Famously, it predicted the 1952 U.S.
-          election results on live TV—demonstrating the power of computing to the public. Operating with thousands of
-          vacuum tubes, it processed census data at high speeds and became a defining symbol of computing's commercial
-          potential.
-        </p>
-        <figure>
-          <img src="assets/univac-1.JPG" alt="UNIVAC I" width="300" />
-          <figcaption>UNIVAC I</figcaption>
-        </figure>
-      </article>
-
-      <article id="microprocessor-era" class="timeline-event">
-        <div class="event-marker" aria-hidden="true"></div>
-        <h2>
-          <a href="https://en.wikipedia.org/wiki/Intel_4004" target="_blank" rel="noopener noreferrer">
-            1971 – Microprocessor Revolution: Intel 4004
-          </a>
-        </h2>
-        <p>
-          The Intel 4004 was the world’s first microprocessor on a single chip. This innovation made computers smaller,
-          more affordable, and opened the door to personal computing. It integrated CPU functions into a silicon-gate
-          chip with about 2,300 transistors, executing around 92,000 instructions per second and sparking the
-          microprocessor revolution.
-        </p>
-        <figure>
-          <img src="assets/intel-C4004.jpg" alt="Intel 4004" width="300" />
-          <figcaption>Intel-4004</figcaption>
-        </figure>
-      </article>
-
-      <article id="pc-era" class="timeline-event">
-        <div class="event-marker" aria-hidden="true"></div>
-        <h2>
-          <a href="https://en.wikipedia.org/wiki/IBM_Personal_Computer" target="_blank" rel="noopener noreferrer">
-            1981 – PC Era: IBM Personal Computer (IBM 5150)
-          </a>
-        </h2>
-        <p>
-          IBM’s personal computer became the gold standard for desktops. It made computing more accessible and brought
-          PCs into everyday homes and workplaces. Introduced in August 1981, the IBM PC featured open architecture, the
-          Intel 8088 CPU, and spawned the PC-compatible ecosystem that still dominates the industry today.
-        </p>
-        <figure>
-          <img src="assets/ibm-personal-computer.png" alt="IBM PC 5150 – the iconic personal computer" width="300" />
-          <figcaption>IBM personal computer</figcaption>
-        </figure>
-      </article>
-
-      <article id="mobile-ai-era" class="timeline-event">
-        <div class="event-marker" aria-hidden="true"></div>
-        <h2>
-          <a href="https://en.wikipedia.org/wiki/Smartphone#Apple_iPhone" target="_blank" rel="noopener noreferrer">
-            2007 – Present: Mobile & AI Era
-          </a>
-        </h2>
-        <p>
-          The launch of the iPhone sparked the mobile computing revolution. Since then, technologies like cloud
-          computing, artificial intelligence, and even quantum computing have pushed the boundaries further. The iPhone,
-          first sold in 2007, combined a sleek design, touchscreen interface, and app ecosystem—reshaping how we
-          interact with technology.
-        </p>
-        <figure>
-          <img src="assets/mobile-ai-era.png" alt="iPhone 2007" width="300" />
-          <figcaption>Mobile computing and AI-powered apps</figcaption>
-        </figure>
-      </article>
     </section>
   </main>
-
 
   <div id="modal" class="modal" role="dialog" aria-hidden="true">
     <div class="modal-content">
       <span class="close-btn" role="button" aria-label="Close">&times;</span>
-      <div class="modal-body">
-
-      </div>
+      <div class="modal-body"></div>
     </div>
   </div>
 
   <footer>
     <p>&copy; 2025 Timeline Project. Created by Kajal.</p>
   </footer>
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>
